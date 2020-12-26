@@ -2,6 +2,8 @@
 # to the BLE slave device.
 # After Qemu is launched, that Python script should start showing the messages.
 
+# This script should be ran with sudo permissions
+
 rm redirect.txt
 touch redirect.txt
 stty 9600 -F /dev/ttyUSB0
