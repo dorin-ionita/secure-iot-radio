@@ -1,3 +1,7 @@
+# Please first start the uart_client example and be sure you are connected
+# to the BLE slave device.
+# After Qemu is launched, that Python script should start showing the messages.
+
 rm redirect.txt
 touch redirect.txt
 stty 9600 -F /dev/ttyUSB0
