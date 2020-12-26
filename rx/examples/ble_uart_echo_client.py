@@ -24,7 +24,7 @@ while True:
             one_byte = uart.read(16)
             if one_byte:
                 print(one_byte)
-        time.sleep(1)
+        time.sleep(5)
 
     print("scanning... connecting...")
     for advertisement in ble.start_scan(ProvideServicesAdvertisement, timeout=1):
