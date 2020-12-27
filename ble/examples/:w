@@ -21,7 +21,7 @@ while True:
             uart = connection[UARTService]
 			#uart.write(b"echo")
             # Returns b'' if nothing was read.
-            one_byte = uart.read(16)
+            one_byte = uart.read(50)
             if one_byte:
                 print(one_byte)
         time.sleep(5)
