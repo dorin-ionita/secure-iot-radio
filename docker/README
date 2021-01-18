@@ -1,0 +1,3 @@
+sudo su
+./docker_kickoff.sh
+./show_results.sh
